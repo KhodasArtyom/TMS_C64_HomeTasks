@@ -14,7 +14,7 @@ public class Greetings {
         byte age = (byte) (currentYear - yearOfBirth);
 
 
-        System.out.println("Thanks," + name + ". "+ "You are " + age +" "+ "years old. Welcome to our course" );
+        System.out.println("Thanks," + name + ". "+ "You are " + age +" "+ "years old. Welcome to our course!!" );
 
     }
 }
