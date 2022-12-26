@@ -20,4 +20,5 @@ public class Task2 {
                 System.out.println("There isn't such season");
         }
     }
+    //
 }

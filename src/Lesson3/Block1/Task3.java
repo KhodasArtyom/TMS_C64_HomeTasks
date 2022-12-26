@@ -16,6 +16,7 @@ public class Task3 {
                 System.out.println("Число не четное");
             }
     }
+    //
 
 }
 
