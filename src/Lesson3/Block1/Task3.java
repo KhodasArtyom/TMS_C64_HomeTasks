@@ -11,8 +11,10 @@ public class Task3 {
 
             if (number % 2 == 0) {
                 System.out.println("Число четное");
-            }
-            else {
+                //add else if < 0
+            } else if(number < 0){
+                System.out.println("Число не может быть  < 0");
+        }else {
                 System.out.println("Число не четное");
             }
     }
