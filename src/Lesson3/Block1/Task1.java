@@ -31,7 +31,9 @@ public class Task1 {
                     System.out.println("Autumn");
 
             }
-            if(choice == 0 || choice > 12) {
+            //add choice < 0
+            if(choice == 0 || choice > 12 || choice < 0) {
+                System.out.println("There is no such month");
                 break;
             }
         }
