@@ -7,6 +7,9 @@ public class Task7 {
         System.out.println("Введите длину массива:");
         Scanner scanner = new Scanner(System.in);
         int len = scanner.nextInt();
+        if(len<0) {
+            System.out.println("Длина массива не может быть с отрицательным количеством элементов");
+        }
         int[] array;
         array = new int[len];
         for (int i = 0; i < array.length; i++) {
